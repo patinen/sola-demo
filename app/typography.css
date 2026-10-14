@@ -1,0 +1,51 @@
+:root {
+  --font-sans: "Segoe UI", Arial, sans-serif;
+  --font-display: Italiana, Georgia, "Times New Roman", serif;
+  --font-editorial: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  font-family: var(--font-sans);
+}
+
+.wordmark,
+.footer-logo {
+  font-family: var(--font-display);
+}
+
+.hero h1,
+.intro-content h2,
+.treatment-header h2,
+.manifesto h2,
+.details-layout h2,
+.booking h2,
+.booking-modal h2,
+.treatment-card h3,
+.detail-list h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.025em;
+}
+
+.hero h1 em,
+.intro-content h2 em,
+.treatment-header h2 em,
+.manifesto h2 em,
+.details-layout h2 em,
+.booking h2 em,
+.booking-modal h2 em,
+.intro-tag,
+.small-italic {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.hero h1 em {
+  font-size: 0.9em;
+}
+
+.intro-content h2 em,
+.treatment-header h2 em,
+.details-layout h2 em,
+.manifesto h2 em,
+.booking h2 em {
+  font-size: 0.86em;
+}

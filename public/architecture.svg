@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250">
+<defs>
+  <linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#858c85"/><stop offset="1" stop-color="#353d39"/></linearGradient>
+  <pattern id="grid" width="62" height="62" patternUnits="userSpaceOnUse"><path d="M62 0H0V62" fill="none" stroke="#d8dfd1" stroke-opacity=".15" stroke-width="1"/></pattern>
+  <pattern id="windows" width="100" height="112" patternUnits="userSpaceOnUse"><path d="M0 0H100V112H0Z" stroke="#f0e9d7" stroke-width="5" fill="none"/><path d="M50 0V112M0 64H100" stroke="#f0e9d7" stroke-width="2" opacity=".65"/></pattern>
+</defs>
+<rect width="1000" height="1250" fill="url(#b)"/><rect width="1000" height="1250" fill="url(#grid)"/>
+<path d="M-100 270 1100 -100M-90 440 1200 35M-50 620 1200 215" stroke="#dce5d8" stroke-opacity=".15" stroke-width="2"/>
+<path d="M155 950 155 260 540 110 810 278 810 1080 540 1210Z" fill="#434e49" stroke="#eaece4" stroke-opacity=".7" stroke-width="3"/>
+<path d="M155 260 540 413 810 278M540 413V1210M155 950 540 1105 810 1080" stroke="#f1e8d5" stroke-opacity=".65" stroke-width="4" fill="none"/>
+<path d="M155 260 540 413V1210L155 950Z" fill="#3a4540"/><path d="M540 413 810 278V1080L540 1210Z" fill="#6e7b72"/>
+<path d="M180 324 515 462V1135L180 998Z" fill="url(#windows)" opacity=".7"/>
+<path d="M570 441 785 337V1060L570 1165Z" fill="url(#windows)" opacity=".6"/>
+<path d="M100 980 890 1240M700 220 860 155 860 1060" stroke="#eb774d" stroke-opacity=".65" stroke-width="5" fill="none"/>
+<path d="M85 220h155M85 220v150M840 1000v130H970" stroke="#ff8457" stroke-width="5" fill="none"/>
+<circle cx="670" cy="290" r="8" fill="#fb7748"/>
+</svg>
